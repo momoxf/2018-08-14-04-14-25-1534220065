@@ -11,7 +11,7 @@ module.exports = function main(str) {
     out[2].push(lednum[2][s])
       
   }
-  return out.mop(row => row.join('')+'\n').join('')
+  return out.mop(row => row.join(' ')+'\n').join('')
    
 };
  
